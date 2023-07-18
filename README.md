@@ -28,7 +28,7 @@ In each service you need to update below
 1) subscription_id
 2) tenant_id
 3) client_id
-4) client_secret  ( Not recomended to put here you can make use of "export TF_VAR_client_secret=xxxx-xxxx-xxxx-xxxx" in your CD pipeline. )
+4) client_secret  ( Not recomended to put here, you can make use of "export TF_VAR_client_secret=xxxx-xxxx-xxxx-xxxx" in your CD pipeline. )
 
 ### Multi Env Support
 In each azure service there is a file "dev-terraform.tfvars" which can be replicated for multi-environment support for example  "test-terraform.tfvars"/ "uat-terraform.tfvars"/ "preprod-terraform.tfvars" / "prod-terraform.tfvars".
