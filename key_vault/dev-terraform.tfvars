@@ -1,0 +1,5 @@
+  resource_group_name     = "my_resource-group"
+  location = "northeurope"
+  virtual_network_name = "my_virtual_network"
+  subnet1_name = "subnet1"
+  key_vault_name = "my_key_vault"
